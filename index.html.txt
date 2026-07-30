@@ -1,41 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus objetivos do ano</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Conecta Aí</title>
 </head>
 <body>
-    <section class="conteudo-principal">
-        <h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
-        <div class="conteudo">
-        <div class="botoes">
-            <button class="botao ativo">Cursos na Alura</button>
-            <button class="botao">Criar projetos em Javascript</button>
-            <button class="botao">Criar um portfolio</button>
-            <button class="botao">Atualizar meu currículo</button>
-        </div>
-        <div class="abas-textos">
-            <div class="aba-conteudo ativo">
-                <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
-                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+    <header class="cabecalho">
+        <h1>Confere Aí</h1>
+        <nav>
+            <a href="#" class="cabecalho-link">Inicio</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Descubra a verdade passando o mouse</h2>
+        <section>
+        <article class="cartao">
+            <div class="cartao-interno">
+                <div class="cartao-frente">
+                    <img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/mm1012723121410486.jpg?w=1900&h=2849" alt="Pinguim" class="cartao-imagem">
+                    <p>Pinguins conseguem voar como pássaros!</p>
+                </div>
+                <div class="cartao-verso">
+                    <img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/mm1012723121410486.jpg?w=1900&h=2849" alt="Pinguim"  class="cartao-imagem">
+                    <p>Pinguins não voam, mas são excelentes nadadores.</p>
+                </div>
             </div>
-            <div class="aba-conteudo">
-                <h3 class="aba-conteudo-titulo-principal">Criar 5 projetos em Javascript</h3>
-                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+        </article>
+<article class="cartao">
+            <div class="cartao-interno">
+                <div class="cartao-frente">
+                    <img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/mm1012723121410486.jpg?w=1900&h=2849" alt="Pinguim" class="cartao-imagem">
+                    <p>Pinguins conseguem voar como pássaros!</p>
+                </div>
+                <div class="cartao-verso">
+                    <img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/mm1012723121410486.jpg?w=1900&h=2849" alt="Pinguim"  class="cartao-imagem">
+                    <p>Pinguins não voam, mas são excelentes nadadores.</p>
+                </div>
             </div>
-            <div class="aba-conteudo">
-                <h3 class="aba-conteudo-titulo-principal">Criar um portfolio com os meus 3 melhores projetos</h3>
-                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-            </div>
-            <div class="aba-conteudo">
-                <h3 class="aba-conteudo-titulo-principal">Atualizar meu curriculo com os certificados da Alura</h3>
-                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-            </div>
-        </div>
-    </div>
-    </section>
-    <script src="main.js"></script>
+        </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Projeto feito por Moni</p>
+    </footer>
 </body>
 </html>
